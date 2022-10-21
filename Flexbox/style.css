@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: white;
+    margin: 220px 220px;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.item1{
+    background-color: #e28525;
+    text-align: left;
+    padding: 42px 42px;
+    font-size: 15px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.item2{
+    background-color: #016972;
+    text-align: left;
+    padding: 42px 42px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.item3{
+    background-color: #00403f;
+    text-align: left;
+    padding: 42px 42px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.btn1{
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: #e28525;
+    font-size: 15px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: grab;
+}
+.btn2{
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: #016972;
+    font-size: 15px;
+    margin-top: 70px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: grab;
+}
+.btn3{
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: #00403f;
+    font-size: 15px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: grab;
+}
+p{
+    width: 170px;
+}
+img{
+    padding-bottom: 20px;
+}
+h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
