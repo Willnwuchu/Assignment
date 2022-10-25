@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+body{
+    background-color: whitesmoke;
+    
+}
+
+.Form_container{
+    margin: 10px;
+    border: 2px solid br;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    
+}
+.head{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* Styling the Registration Page*/
+.Registration{
+    height: 100%;
+    font-size: 20px;
+    border: 1px solid palevioletred;
+    width: 400px;
+    height: 100vh;
+    background-color: aquamarine;
+    padding: 20px;
+}
+label{
+    text-align: left;
+    font-size: 20px;
+}
+/* Styling the Login Page*/
+.Login{
+    height: 100%;
+    font-size: 20px;
+    border: 1px solid palevioletred;
+    width: 600px;
+    height: 100vh;
+    background-color: aquamarine;
+    padding: 10px;
+}
+input{
+    font-size: 25px;
+}
+.Gender{
+    font-size: 25px;
+}
+.btn{
+    font-size: 30px;
+    background-color: orangered;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #6ca31a;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    background-color: orangered;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 20px;
+    text-decoration: none; }
+    
+
+.checkmark{
+    border-radius:200px; 
+    height:200px; 
+    width:200px; 
+    background: #6ca31a; 
+    margin:0 auto;
+    text-align: center;
+}
+.card_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    background-color: blue;
+    color: bisque;
+
+}
+a {
+    text-decoration: none;
+}
